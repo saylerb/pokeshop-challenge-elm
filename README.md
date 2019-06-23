@@ -59,8 +59,8 @@ During our inception, we discovered the following requirements for a POC:
 
 5. To enhance the seach filtering capabilty, provide a dropdown to allow the customer to specify the Pokémon types they're interested in. The options are Grass, Water, Fire, Normal, Flying, Poison, Bug, and Electric. This search filter can be combined with the free text search, such that if both are used the results are based on applying both filters. The search will again be submitted upon clicking "Go".
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Level 1:** Allow the user to select a single Pokémon type at a time, using a traditional dropdown<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Level 2:** Provide a dropdown multiselect that allows a user to select _multiple_ types at a time
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Level 1:** Allow the user to select a single Pokémon type at a time, using a traditional dropdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Level 2:** Provide a dropdown multiselect that allows a user to select _multiple_ types at a time
 
 6. The Pokéshop QA department has reported some flaky behavior on the BFF. Calls to it appear to fail at random intervals, for unknown reasons. Since we have no control over on the development of the API, our UI needs to handle these uncertain conditions gracefully and not crash or interrupt the user. How might that be done?
 
