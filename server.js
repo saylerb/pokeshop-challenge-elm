@@ -32,6 +32,10 @@ const byType = types => article => {
   return articleHasSearchedTypes;
 };
 
+app.get("/hello", (req, res) => {
+  return res.send("Hello from the other side");
+})
+
 app.get("/articles", (req, res) => {
   if (shouldFail()) {
     return res.status(418).send("Here's my handle, here's my spout!");
