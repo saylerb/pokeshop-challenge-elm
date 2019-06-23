@@ -8,6 +8,10 @@ You can use any frontend technology you like - but the idea is to use a technolo
 
 A Node API has been provided for your UI to connect to - it's intentionally unstable, so no cheating and editing the source code in `server.js`!
 
+This challenge is intended to be used for a 3-hour timeframe, so don't expect to finsh all, or even most of it.
+
+You can work alone, in pairs, or in teams - whichever suits your learning style most!
+
 ## Getting started
 
 We sent out a survey on which technologies would be interesting to use. Here are some suggested resources to quickly boostrap some of those technologies and get you coding:
