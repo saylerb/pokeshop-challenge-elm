@@ -33,7 +33,9 @@ const byType = types => article => {
 };
 
 app.get("/hello", (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
   return res.send("Hello from the other side");
+
 })
 
 app.get("/articles", (req, res) => {

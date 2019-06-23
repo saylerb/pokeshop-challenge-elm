@@ -5,6 +5,46 @@ import Html exposing (Html, button, div, h1, img, input, pre, text)
 import Html.Attributes exposing (placeholder, src, value)
 import Html.Events exposing (onClick, onInput)
 import Http
+import Json.Decode as Decode exposing (Decoder, decodeString, float, int, list, string)
+import Json.Decode.Pipeline exposing (required)
+
+
+type alias Pokémon =
+    { id : Int
+    , name : String
+    , description : String
+    , imageSrc : String
+    , types : List String
+    , price : Float
+    }
+
+
+
+-- HTTP
+
+
+getPokémon : Cmd Msg
+getPokémon =
+    Http.get
+        { url = "http://localhost:3000/articles"
+        , expect = Http.expectJson GotPokémon decoder
+        }
+
+
+decoder : Decoder (List Pokémon)
+decoder =
+    list pokémonDecoder
+
+
+pokémonDecoder : Decoder Pokémon
+pokémonDecoder =
+    Decode.succeed Pokémon
+        |> required "id" int
+        |> required "name" string
+        |> required "description" string
+        |> required "imageSrc" string
+        |> required "types" (list string)
+        |> required "price" float
 
 
 
@@ -14,7 +54,7 @@ import Http
 type RequestState
     = Failure
     | Loading
-    | Success String
+    | Success (List Pokémon)
 
 
 type alias Model =
@@ -27,12 +67,7 @@ type alias Model =
 init : ( Model, Cmd Msg )
 init =
     ( { counter = 0, content = "", request = Loading }
-    , Http.get
-        { url = "http://localhost:3000/hello"
-        , expect = Http.expectString GotText
-
-        --, header = [ ( "Access-Control-Allow-Origin", "true" ) ]
-        }
+    , Cmd.none
     )
 
 
@@ -44,7 +79,7 @@ type Msg
     = Increment
     | Decrement
     | Change String
-    | GotText (Result Http.Error String)
+    | GotPokémon (Result Http.Error (List Pokémon))
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -59,10 +94,10 @@ update msg model =
         Change newContent ->
             ( { model | content = newContent }, Cmd.none )
 
-        GotText result ->
+        GotPokémon result ->
             case result of
-                Ok fullText ->
-                    ( { model | request = Success fullText }, Cmd.none )
+                Ok allPokemon ->
+                    ( { model | request = Success allPokemon }, Cmd.none )
 
                 Err _ ->
                     ( { model | request = Failure }, Cmd.none )
@@ -87,24 +122,25 @@ view model =
             , onInput Change
             ]
             []
-        , viewText model
+        , viewPokémon model
         ]
 
 
-viewText : Model -> Html Msg
-viewText model =
+viewPokémon : Model -> Html Msg
+viewPokémon model =
     case model.request of
         Loading ->
             text "Loading..."
 
         Failure ->
-            text "I was not able to load"
+            text "I was not able to load any pocket creatures"
 
-        Success fullText ->
-            pre [] [ text fullText ]
+        Success allPokémon ->
+            text "something"
 
 
 
+-- List.map (\ element -> text element)
 ---- PROGRAM ----
 
 
