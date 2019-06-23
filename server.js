@@ -40,6 +40,8 @@ app.get("/articles", (req, res) => {
   const { q, types } = req.query;
   const result = articles.filter(byQuery(q)).filter(byType(types));
 
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
   return res.send(result);
 });
 
