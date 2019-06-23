@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadruped Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On its back is a green plant bulb, which is grown from a seed planted there at birth. The bulb provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within. As mentioned in the anime, starter Pokémon are raised by Breeders to be distributed to new Trainers. Having been domesticated from birth, Bulbasaur is regarded as both a rare and well-behaved Pokémon. It is known to be extremely loyal, even after long-term abandonment. Bulbasaur has also shown itself to be an excellent caretaker, even having a special technique called the 'Bulba-by.' To perform this technique, Bulbasaur uses its vines to pick up a young Pokémon and soothingly rocks it in the air. It is found in grasslands and forests throughout the Kanto region. However, due to Bulbasaur's status as starter Pokémon, it is hard to come by in the wild and generally found under the ownership of a Trainer. It has been observed that a Bulbasaur's bulb will flash blue when it is ready to evolve. If it does not want to evolve, it struggles to resist the transformation. Many Bulbasaur gather every year in a hidden garden in Kanto to evolve into Ivysaur in a ceremony led by a Venusaur.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png",
+      "types": ["grass", "poison"],
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "Charmander",
+      "description": "Charmander is a bipedal, reptilian Pokémon with a primarily orange body and blue eyes. Its underside from the chest down and the soles of its feet are cream-colored. It has two small fangs visible in its upper jaw and two smaller fangs in its lower jaw. A fire burns at the tip of this Pokémon's slender tail and has blazed there since Charmander's birth. The flame can be used as an indication of Charmander's health and mood, burning brightly when the Pokémon is strong, weakly when it is exhausted, wavering when it is happy, and blazing when it is enraged. It is said that Charmander dies if its flame goes out. However, if the Pokémon is healthy, the flame will continue to burn even if it gets a bit wet and is said to steam in the rain. Charmander can be found in hot, mountainous areas. However, it is found far more often in the ownership of Trainers. As shown in Pokémon Snap, Charmander exhibits pack behavior, calling others of its species if it finds food.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/7/73/004Charmander.png/500px-004Charmander.png",
+      "types": ["fire"],
+      "price": 50
+    },
+    {
+      "id": 3,
+      "name": "Squirtle",
+      "description": "Squirtle is a small Pokémon that resembles a light blue turtle. While it typically walks on its two short legs, it has been shown to run on all fours in Super Smash Bros. Brawl. It has large, purplish or reddish eyes and a slightly hooked upper lip. Each of its hands and feet have three pointed digits. The end of its long tail curls inward. Its body is encased by a tough shell that forms and hardens after birth. This shell is brown on the top, pale yellow on the bottom, and has a thick white ridge between the two halves. Squirtle's shell is a useful tool. It can withdraw into the shell for protection or to sleep. The grooved, rounded shape helps to reduce water resistance when this Pokémon swims. Squirtle can spray foamy water from its mouth with great accuracy. Squirtle is scarce in the wild, although it can be found around small ponds and lakes. The anime has shown that it can be found living on secluded islands with other members of its evolutionary line. In the past, Skull Bash was its signature move.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/500px-007Squirtle.png",
+      "types": ["water"],
+      "price": 50
+    },
+    {
+      "id": 4,
+      "name": "Caterpie",
+      "description": "Caterpie is a Pokémon that resembles a green caterpillar with a yellow underside and teardrop-shaped tail. There are yellow ring-shaped markings down the sides of its segmented body, which resemble its eyes and are meant to scare off predators. Its most notable characteristic is the bright red antenna (osmeterium) on its head, which releases a stench to repel predators. Despite these features and its camouflage in green foliage, Caterpie is often preyed upon by Flying-type Pokémon. Its four tiny feet are tipped with suction cups, permitting this Pokémon to scale most surfaces with minimal effort. Caterpie is easy to capture and grows quickly, making it ideal for new Trainers. It will shed its skin many times before finally cocooning itself in thick silk. It can also spit this silk in order to entangle foes as seen in the anime. It has a voracious appetite, which drives it to eat a hundred leaves a day. It will even eat leaves bigger than itself. According to Pokémon Adventures, its favorite food is the Vermilion flower. Caterpie lives in forests.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/5/5d/010Caterpie.png/500px-010Caterpie.png",
+      "types": ["bug"],
+      "price": 60
+    },
+    {
+      "id": 5,
+      "name": "Weedle",
+      "description": "Weedle is a larval Pokémon with a segmented body ranging in color from yellow to reddish-brown. Each segment of its body is a sphere. It has a bulbous red nose on its face and two spherical feet on each body segment. The combination of red and yellow coloration creates a bright warning to predators that it is poisonous. Weedle has a conical, two-inch (five centimeter) venomous stinger on its head and a barbed one on its tail. Weedle can retaliate against attackers and those who step on it with its strong toxin. It can distinguish its favorite kinds of leaves using its acute sense of smell. As a young Bug Pokémon, its daily appetite for leaves matches its weight. Weedle can be found in forests and usually hides in grass, bushes, and under the leaves it eats.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/d/df/013Weedle.png/500px-013Weedle.png",
+      "types": ["bug", "poison"],
+      "price": 60
+    },
+    {
+      "id": 6,
+      "name": "Pidgey",
+      "description": "Pidgey is a small, plump-bodied avian Pokémon. It is primarily brown with a cream-colored face, underside, and flight feathers. On top of its head is a short crest of three tufts. The center crest feathers are brown and the outer two tufts are cream-colored. Just under its crest are its narrow, brown eyes. Angular black marking extend from behind its eyes down its cheeks. It has a short, stubby beak and feet with two toes in front and one in back. Both its beak and feet are a grayish-pink. It has a short, brown tail made of three feathers. Pidgey has an extremely sharp sense of direction and homing instincts. It can locate its nest even when far removed from familiar surroundings. It is a docile Pokémon, and generally prefers to flee from its enemies rather than fight them. By flapping its wings rapidly, it can whip up dust clouds and create whirlwinds to protect itself and flush out potential prey. Gust and Feather Dance are its former signature moves. Pidgey is very common throughout its range and can often be seen in meadows and forests. Ekans is a natural predator of Pidgey.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/5/55/016Pidgey.png/500px-016Pidgey.png",
+      "types": ["normal", "flying"],
+      "price": 70
+    },
+    {
+      "id": 7,
+      "name": "Rattata",
+      "description": "Rattata is a small, quadruped rodent Pokémon. It has purple fur with a cream-colored face, paws, and underbelly. It has narrow, red eyes, rounded ears with cream-colored insides, and a single whisker on each cheek. Its long tail is tightly curled at the end. Its most notable feature is its large teeth. Like most rodents, its teeth grow continuously throughout its life and must be worn down by gnawing. A female Rattata will have shorter whiskers and lighter fur. Rattata can live wherever it can find food, which it searches for most of the day. Thanks to its sharp fangs, it is able to eat nearly anything. When it is threatened, Rattata can deliver a powerful bite. Its large teeth are also useful when using its former signature moves, Hyper Fang and Super Fang. Its hardiness lets it live in many environments, although it mainly lives on plains and savannas. Because it reproduces so quickly, a pair of Rattata can quickly colonize an area. Rattata are non-native to Alola and arrived in cargo ships. The Rattata population in Alola was booming until Yungoos was imported as a control measure. In order to avoid these new predators, Rattata altered its habits. It moved to more urban areas, became nocturnal, and formed large nests led by Raticate.[1] Alolan Rattata searches out fresh food by smell and ignore anything spoiled. It has even been known to sneak into people's homes to find food. It has dark gray fur and grayish-purple ear insides. There are two tufts of fur on each ear and near the tip of its tail. Its long, thin whiskers are replaced by shorter, thicker tufts of fur as well. The line where its cream underbelly meets its gray fur is ragged instead of smooth. This variant of Rattata is the shortest Dark-type.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/4/46/019Rattata.png/500px-019Rattata.png",
+      "types": ["normal"],
+      "price": 70
+    },
+    {
+      "id": 8,
+      "name": "Spearow",
+      "description": "Spearow is an avian Pokémon that is very small. It has rough, brown plumage on its head and three brown tail feathers. It has narrow, dark brown eyes with white pupils and a short, hooked beak that is light pink. The feathers covering its wings are pinkish red with lighter tips, and it has a beige underside with two thin, horizontal stripes. Its light pink feet have two toes in front and one in the back. Black feathers cover its back. Although inept at other aspects of its flying, such as height and distance, Spearow is still capable of flying quickly to protect its territory. However, it must flap its wings at high speeds to stay aloft. Spearow's loud shrieks can be heard over half a mile (one kilometer) away, and are used to warn other of its kind of danger. The anime has shown that Spearow sees in black and white and will chase its foes in a large flock. Spearow is usually found in desolate wastelands and fields, where it hunts for insects. Ekans is a natural predator of Spearow.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/8/8b/021Spearow.png/500px-021Spearow.png",
+      "types": ["normal", "flying"],
+      "price": 80
+    },
+    {
+      "id": 9,
+      "name": "Ekans",
+      "description": "Ekans is a purple, serpentine Pokémon. Its eyes, underbelly, the thick stripe around its neck, and rattle are yellow. Ekans has three pairs of black lines encircling its body, as well as another line that connects to each slit-pupiled eye and curves toward its nose. Its large mouth has a round, pink tongue and no visible teeth. While painful, a newborn Ekans's bite is not venomous. This Pokémon grows longer with age. Ekans lives in grassy savannas and plains, where it moves stealthily through grass. It preys on Eggs from Pidgey and Spearow nests, but will strike other prey from behind. By flicking its tongue out, it is able to detect danger and the scent of prey. Its jaw can detach to swallow large prey, but such a meal can make Ekans too heavy to move or become stuck and cause it to faint. It wraps itself around tree branches at night to rest. If not in a tree, it will coil itself up—a position in which it can defend itself from all directions. It was also shown in the second movie to possess some swimming abilities. Its former signature move is Glare.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/f/fa/023Ekans.png/500px-023Ekans.png",
+      "types": ["poison"],
+      "price": 90
+    },
+    {
+      "id": 10,
+      "name": "Pikachu",
+      "description": "Pikachu is a short, chubby rodent Pokémon. It is covered in yellow fur with two horizontal brown stripes on its back. It has a small mouth, long, pointed ears with black tips, and brown eyes. A each cheek is a red circle that contains a pouch for electricity storage. It has short forearms with five fingers on each paw, and its feet each have three toes. At the base of its lightning bolt-shaped tail is a patch of brown fur. A female will have a V-shaped notch at the end of its tail, which looks like the top of a heart. It is classified as a quadruped, but it has been known to stand and walk on its hind legs. The anime has shown that wild Pikachu live in groups in forested areas. Pikachu communicate amongst themselves using squeaks and tail-shaking as friendly gestures. In the anime, Alolan Pikachu are known to greet each other by sniffing one another and rubbing their tails together. Electricity can be used to receive and send messages with each other, as well as other Electric Pokémon species. It raises its tail to check its surroundings and is occasionally struck by lightning in this position. When groups grow, they can inadvertently cause lightning storms. Pikachu forages for Berries, which it roasts with electricity to make them tender enough to eat. A sure sign that Pikachu inhabits a location is patches of burnt grass. It has been observed eating and sometimes destroying telephone poles, wires, and other electronic equipment. Pikachu charges itself while sleeping overnight, though stress and a lack of sleep can affect this. It is able to release electric discharges of varying intensity. Pikachu has been known to build up energy in its glands, which it will need to discharge to avoid complications. It is also able to release energy through its tail, which acts as a grounding rod, as well as recharging fellow Pikachu with electric shocks. Pikachu can also electrify itself to use its signature move Volt Tackle. Pikachu has three alternate forms: one, the Cosplay Pikachu appeared exclusively in Pokémon Omega Ruby and Alpha Sapphire. It is always female, has a black heart-shaped spot at the end of its tail, and can be dressed in any of five outfits corresponding to the five Contest conditions. The second form is Pikachu in a cap, which debuted as an event-exclusive Pokémon in Generation VII. It is always male and has seven variants, each wearing one of Ash's hats from the anime. In addition to these two forms, many other Pikachu variants have appeared in various media. The last, Partner Pikachu is the Pokémon the player starts with in Pokémon: Let's Go, Pikachu!. This Pikachu can be either gender, has higher base stats, and has access to moves that normal Pikachu do not. Pikachu is the only known Pokémon capable of using the Z-Move Catastropika, while Pikachu in a cap has its own exclusive Z-Move, 10,000,000 Volt Thunderbolt. Partner Pikachu is the only Pokémon capable of using Zippy Zap, Floaty Fall, Splishy Splash, and the Partner Power, Pika Papow. Pikachu is the only Pokémon capable of using the Light Ball item.",
+      "imageSrc": "https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/500px-025Pikachu.png",
+      "types": ["electric"],
+      "price": 100
+    }
+  ]
+}

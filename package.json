@@ -1,0 +1,14 @@
+{
+  "name": "pokeshop-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "author": "Rufus Raghunath",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
