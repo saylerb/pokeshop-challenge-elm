@@ -2,7 +2,7 @@
 
 ## Intro
 
-Welcome to the Pokéshop Challenge. We will be be hacking on some new frontend code to expand our skillsets and come up with creative solutions to tricky problems under time pressure.
+Welcome to the Pokéshop Challenge. We will be hacking on some new frontend code to expand our skillsets and come up with creative solutions to tricky problems under time pressure.
 
 You can use any frontend technology you like - but the idea is to use a technology that you're not already familiar with. So that probably means no React, but it's up to you.
 
