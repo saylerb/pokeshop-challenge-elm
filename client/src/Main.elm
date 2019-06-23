@@ -15,7 +15,7 @@ type alias Pokémon =
     , description : String
     , imageSrc : String
     , types : List String
-    , price : Float
+    , price : Int
     }
 
 
@@ -44,7 +44,7 @@ pokémonDecoder =
         |> required "description" string
         |> required "imageSrc" string
         |> required "types" (list string)
-        |> required "price" float
+        |> required "price" int
 
 
 
@@ -67,7 +67,7 @@ type alias Model =
 init : ( Model, Cmd Msg )
 init =
     ( { counter = 0, content = "", request = Loading }
-    , Cmd.none
+    , getPokémon
     )
 
 
@@ -110,24 +110,23 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ img [ src "/logo.svg" ] []
-        , h1 [] [ text "Welcome to Away Day!" ]
-        , div [] [ text (String.fromInt model.counter) ]
-        , div [] [ text model.content ]
-        , button [ onClick Increment ] [ text "+" ]
-        , button [ onClick Decrement ] [ text "-" ]
-        , input
-            [ placeholder "Please type your name here..."
-            , value model.content
-            , onInput Change
+        [ viewAllPokémon model ]
+
+
+viewPokémon : Pokémon -> Html Msg
+viewPokémon pokémon =
+    div []
+        [ 
+            img [ src pokémon.imageSrc ] []
+            , div [] [
+                div [] [text pokémon.name]
+                , div [] [text ("$" ++ (String.fromInt pokémon.price))]
             ]
-            []
-        , viewPokémon model
         ]
 
 
-viewPokémon : Model -> Html Msg
-viewPokémon model =
+viewAllPokémon : Model -> Html Msg
+viewAllPokémon model =
     case model.request of
         Loading ->
             text "Loading..."
@@ -136,7 +135,8 @@ viewPokémon model =
             text "I was not able to load any pocket creatures"
 
         Success allPokémon ->
-            text "something"
+            div [] (List.map viewPokémon allPokémon)
+            
 
 
 
