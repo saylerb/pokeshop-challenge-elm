@@ -51,7 +51,7 @@ During our inception, we discovered the following requirements for a POC:
 
 1. Show a Browse page which shows each available Pokémon's picture, name, and price. As Pokéshop wants their customers to spend as much money as possible, the articles should be shown in order of price, from most expensive to least expensive. If the prices are equal, sort alphabetically on name.
 
-2. Clicking on a given Pokémon's area (invisble box enclosing image, name, and price) should open a modal displaying details for the selected article. The modal should show a larger version of the image, the name, the price, and the description.
+2. Clicking on a given Pokémon's area (invisble box enclosing image, name, and price) should open a modal displaying details for the selected article. The modal should show a larger version of the image, the name, the price, and the description. The modal should close upon pressing Escape or clicking the "x" button on the top right of the modal.
 
 3. On the modal, customers should be able to click an "Add to Cart" button, to add the selected article to the cart. Unfortunately, Pokéshop has not yet implemented an API for this, so the cart information will be kept in the browser only. Once an article is added to the cart, the number in the cart bubble on the top right of the page should increase. It is possible to add multiple of the same Pokémon to the cart. Customers will not be able to remove Pokémon from the cart for the time being.
 
